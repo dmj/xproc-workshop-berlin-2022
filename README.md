@@ -23,7 +23,7 @@ Copyright 2011-2022 by <xml-project /> Achim Berndzen
 [09:35:46.50] Running Schematron validation as p:validate-with-schematron
 Using Saxon-HE 10.8. XSLT and XQuery processor developed by Saxonica Limited
 SchXslt is copyright (c) 2018 and later by David Maus <dmaus@dmaus.name> and released under the terms of the MIT license.
-bin/morgana/Morgana.sh exercises/01-hello/pipeline.xpl  12.37s user 0.23s system 274% cpu 4.598 total
+bin/morgana/Morgana.bat exercises/01-hello/pipeline.xpl  12.37s user 0.23s system 274% cpu 4.598 total
 ```
 
 ## Lizenzen
