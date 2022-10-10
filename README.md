@@ -13,7 +13,7 @@ ausgeführt werden.
 
 ```
 cd xproc-workshop-berlin-2022
-bin/morgana/Morgana.sh exercises/01-hello/pipeline.xpl
+bin/morgana/Morgana.bat exercises/01-hello/pipeline.xpl
 =================================
 MorganaXProc-IIIse 1.0
 Copyright 2011-2022 by <xml-project /> Achim Berndzen
