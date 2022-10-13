@@ -1,0 +1,98 @@
+:root {
+    font-size: var(--size-normal);
+    --ratio: 1.1;
+    --size-normal: 1.75vw;
+    --size-small: calc(var(--size-normal) / var(--ratio));
+    --size-smaller: calc(var(--size-small) / var(--ratio));
+    --size-smallest: calc(var(--size-smaller) / var(--ratio));
+    --size-large: calc(var(--size-normal) * var(--ratio));
+    --size-larger: calc(var(--size-large) * var(--ratio));
+    --size-largest: calc(var(--size-larger) * var(--ratio));
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    padding: 0 2rem;
+    display: grid;
+    grid-template-rows: 1fr 1rem;
+    background-image: url(dmaus.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 7.5vw;
+}
+
+main {
+    display: grid;
+    height: 100%;
+}
+
+footer {
+    font-size: var(--size-smallest);
+    color: dimgrey;
+}
+
+h1, h2, h3 {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: navy;
+}
+
+h1 {
+    font-size: var(--size-largest);
+}
+
+h2 {
+    font-size: var(--size-larger);
+}
+
+h3 {
+    font-size: var(--size-large);
+}
+
+.slide {
+    max-width: 100ch;
+    display: none;
+}
+
+.titlepage {
+    margin-top: 15%;
+}
+
+.titlepage img {
+    float: left;
+    margin-right: 2rem;
+}
+
+.titlepage p {
+    font-size: var(--size-larger);
+}
+
+#current {
+    display: block;
+}
+
+li + li {
+    margin: 1rem 0;
+}
+
+figure, code {
+    font-size: var(--size-smaller);
+}
+
+blockquote {
+    font-style: italic;
+    padding-left: 1em;
+    border-left: 0.25em solid darkgray;
+}
+
+code {
+    font-weight: bold;
+}
+
+pre code {
+    font-weight: reset;
+}

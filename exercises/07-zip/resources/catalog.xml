@@ -1,0 +1,26 @@
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <system systemId="http://www.editeur.org/onix/2.1/short/iso-amsa.ent" uri="onix-dtd/2.1/short/iso-amsa.ent"/>
+  <system systemId="http://www.editeur.org/onix/2.1/short/iso-amsb.ent" uri="onix-dtd/2.1/short/iso-amsb.ent"/>
+  <system systemId="http://www.editeur.org/onix/2.1/short/iso-amsc.ent" uri="onix-dtd/2.1/short/iso-amsc.ent"/>
+  <system systemId="http://www.editeur.org/onix/2.1/short/iso-amsn.ent" uri="onix-dtd/2.1/short/iso-amsn.ent"/>
+  <system systemId="http://www.editeur.org/onix/2.1/short/iso-amso.ent" uri="onix-dtd/2.1/short/iso-amso.ent"/>
+  <system systemId="http://www.editeur.org/onix/2.1/short/iso-amsr.ent" uri="onix-dtd/2.1/short/iso-amsr.ent"/>
+  <system systemId="http://www.editeur.org/onix/2.1/short/iso-box.ent" uri="onix-dtd/2.1/short/iso-box.ent"/>
+  <system systemId="http://www.editeur.org/onix/2.1/short/iso-cyr1.ent" uri="onix-dtd/2.1/short/iso-cyr1.ent"/>
+  <system systemId="http://www.editeur.org/onix/2.1/short/iso-cyr2.ent" uri="onix-dtd/2.1/short/iso-cyr2.ent"/>
+  <system systemId="http://www.editeur.org/onix/2.1/short/iso-dia.ent" uri="onix-dtd/2.1/short/iso-dia.ent"/>
+  <system systemId="http://www.editeur.org/onix/2.1/short/iso-grk3.ent" uri="onix-dtd/2.1/short/iso-grk3.ent"/>
+  <system systemId="http://www.editeur.org/onix/2.1/short/iso-lat1.ent" uri="onix-dtd/2.1/short/iso-lat1.ent"/>
+  <system systemId="http://www.editeur.org/onix/2.1/short/iso-lat2.ent" uri="onix-dtd/2.1/short/iso-lat2.ent"/>
+  <system systemId="http://www.editeur.org/onix/2.1/short/iso-mfrk.ent" uri="onix-dtd/2.1/short/iso-mfrk.ent"/>
+  <system systemId="http://www.editeur.org/onix/2.1/short/iso-mopf.ent" uri="onix-dtd/2.1/short/iso-mopf.ent"/>
+  <system systemId="http://www.editeur.org/onix/2.1/short/iso-mscr.ent" uri="onix-dtd/2.1/short/iso-mscr.ent"/>
+  <system systemId="http://www.editeur.org/onix/2.1/short/iso-num.ent" uri="onix-dtd/2.1/short/iso-num.ent"/>
+  <system systemId="http://www.editeur.org/onix/2.1/short/iso-pub.ent" uri="onix-dtd/2.1/short/iso-pub.ent"/>
+  <system systemId="http://www.editeur.org/onix/2.1/short/iso-tech.ent" uri="onix-dtd/2.1/short/iso-tech.ent"/>
+  <system systemId="http://www.editeur.org/onix/2.1/short/onix-international.dtd" uri="onix-dtd/2.1/short/onix-international.dtd"/>
+  <system systemId="http://www.editeur.org/onix/2.1/short/onix-xhtml.elt" uri="onix-dtd/2.1/short/onix-xhtml.elt"/>
+  <system systemId="http://www.editeur.org/onix/2.1/short/short.elt" uri="onix-dtd/2.1/short/short.elt"/>
+  <system systemId="http://www.editeur.org/onix/2.1/short/xhtml-special.ent" uri="onix-dtd/2.1/short/xhtml-special.ent"/>
+  <system systemId="http://www.editeur.org/onix/2.1/short/xhtml-symbol.ent" uri="onix-dtd/2.1/short/xhtml-symbol.ent"/>
+</catalog>

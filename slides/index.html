@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    <title>XProc 3.0 · Online-Workshop an der Berlin-Brandenburgischen Akademie der Wissenschaften · 14.10.2022</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hljs/styles/default.min.css">
+    <script src="hljs/highlight.js" type="text/javascript"></script>
+    <script src="hljs/languages/xml.min.js" type="text/javascript"></script>
+    <script>hljs.highlightAll();</script>
+    <script>
+      window.onload = function () {
+          window.onkeydown = function (event) {
+              if (event.keyCode === 32 || event.keyCode === 39) {
+                  var current = document.getElementById("current");
+                  var next = current.nextElementSibling;
+                  if (next !== null) {
+                      current.removeAttribute("id");
+                      next.setAttribute("id", "current");
+                  }
+              }
+              if (event.keyCode == 37) {
+                  var current = document.getElementById("current");
+                  var prev = current.previousElementSibling;
+                  if (prev !== null) {
+                      current.removeAttribute("id");
+                      prev.setAttribute("id", "current");
+                  }
+              }
+              if (event.keyCode == 35) {
+                  var current = document.getElementById("current");
+                  var last = current.parentElement.lastElementChild;
+                  current.removeAttribute("id");
+                  last.setAttribute("id", "current");
+              }
+              if (event.keyCode == 36) {
+                  var current = document.getElementById("current");
+                  var first = current.parentElement.firstElementChild;
+                  current.removeAttribute("id");
+                  first.setAttribute("id", "current");
+              }
+          };
+      };
+    </script>
+  </head>
+  <body>
+    <main>
+      <div class="slide titlepage" id="current">
+        <img src="xproc-logo_300_px.png">
+        <h1>XProc 3.0</h1>
+        <p>David Maus &lt;dmaus@dmaus.name&gt;</p>
+      </div>
+      <div class="slide">
+        <h1>About me</h1>
+        <ul>
+          <li>Leiter der Abteilung Forschung und Entwicklung der Staats- und Universitätsbibliothek Hamburg</li>
+          <li>
+            <p>Markup Geek</p>
+            <ul>
+              <li>
+                Schematron Editorial Board
+              </li>
+              <li>
+                Autor von <a href="https://github.com/schxslt/schxslt" target="_blank">SchXslt</a>, einer modernen Schematron-Implementierung in XSLT
+              </li>
+              <li>
+                <a href="https://github.com/teic/atop" target="_blank">Stylesheets Task Force</a> des TEI Technical Council
+              </li>
+              <li>
+                Programmkomitee <a href="https://markupuk.org" target="_blank">MarkupUK</a>
+              </li>
+              <li>
+                W3C Community Group <a href="https://www.w3.org/community/xproc-next/" target="_blank">XProc.next</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="slide titlepage">
+          <h1>Grundlagen</h1>
+      </div>
+      <div class="slide">
+        <h1>Was ist XProc?</h1>
+        <ul>
+          <li>XML-basierte Programmiersprache für (XML-basierte) Datenverarbeitung</li>
+          <li>Abstraktion geläufiger Verarbeitungsschritte in <i>steps</i>, die zu <i>pipelines</i> kombiniert werden</li>
+          <li>
+            <p>Spezifikationen</p>
+            <ul>
+              <li>Version 1.0 W3C Recommendation (2010)</li>
+              <li>Version 3.0 W3C Community Group Report (2022)</li>
+            </ul>
+          </li>
+          <li>
+            <p>Implementierung</p>
+            <ul>
+              <li>MorganaXProc-III</li>
+              <li>XML Calabash 3 (under development)</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="slide">
+        <h1>Anwendungsszenarien</h1>
+        <ul>
+          <li>
+            <p>Publikationspipelines</p>
+            <ul>
+              <li>Verarbeitung von XML-Dokumenten in unterschiedliche Zielformate (<i>single source publishing</i>)</li>
+              <li>Kombination von Transformationen, Validierung und anderen Verarbeitungsschritten</li>
+              <li>Beispiel: transpect.io</li>
+            </ul>
+          </li>
+          <li>
+            <p>Datenpflege</p>
+            <ul>
+              <li>Korrektur und Pflege von XML-Dokumenten</li>
+              <li><q>Werkwerfkorrekturen</q></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="slide">
+        <h1>Warum XProc 3.0?</h1>
+        <ul>
+          <li>XPath 3.1 &amp; XQuery and XPath Data Model 3.1</li>
+          <li>Verarbeitung von nicht-XML-Dokumenten</li>
+          <li>vereinfachte Sytnax</li>
+          <li>aktive Community</li>
+        </ul>
+      </div>
+      <div class="slide">
+          <h1>XProc 3.0 Spezifikation – Core</h1>
+          <h2>Core Specification</h2>
+          <p>
+              <a href="https://spec.xproc.org/3.0/xproc/" target="_blank">spec.xproc.org/3.0/xproc/</a>
+          </p>
+          <ul>
+              <li>Grundlegende Konzepte und Definitionen</li>
+              <li>Programmkonstrukte (Bedingungen, Schleifen, Variablen, usw.)</li>
+          </ul>
+          <h2>Standard Step Library</h2>
+          <p>
+              <a href="https://spec.xproc.org/3.0/steps/" target="_blank">spec.xproc.org/3.0/steps/</a>
+          </p>
+          <ul>
+              <li>48 Verarbeitungsschritte die durch einen Prozessor unterstützt werden müssen</li>
+          </ul>
+      </div>
+      <div class="slide">
+          <h1>XProc 3.0 Spezifikation – Zusätzliche Schritte</h1>
+          <h2>Validation Steps</h2>
+          <p><a href="https://spec.xproc.org/master/head/validation/" target="_blank">spec.xproc.org/master/head/validation</a></p>
+          <ul>
+              <li>Validierung mit XML Schema, RELAX NG, Schematron</li>
+          </ul>
+          <h2>File Steps</h2>
+          <p><a href="https://spec.xproc.org/master/head/file/" target="_blank">spec.xproc.org/master/head/file</a></p>
+          <ul>
+              <li>Arbeit mit Dateien und Verzeichnissen</li>
+          </ul>
+      </div>
+      <div class="slide">
+          <h1>Ein Blick in die Spezifikation</h1>
+          <h2><code>p:identity</code></h2>
+          <p><a href="https://spec.xproc.org/3.0/steps/#c.identity">spec.xproc.org/3.0/steps/#c.identity</a></p>
+          <h2><code>p:insert</code></h2>
+          <p><a href="https://spec.xproc.org/3.0/steps/#c.insert">spec.xproc.org/3.0/steps/#c.insert</a></p>
+      </div>
+      <div class="slide">
+          <h1>Terminologie – Ports, Dokumente, Pipelines</h1>
+          <h2>Port</h2>
+          <p>Ein <i>Port</i> ist ein Eingang (<code>p:input</code>) bzw. Ausgang (<code>p:output</code>) eines Schrittes. Ein Schritt kann beliebig viele Eingänge und beliebig viele Ausgänge besitzen. Er besitzt jedoch höchstens einen primären Eingang und höchstens einen primären Ausgang.</p>
+          <p>Schritte sind über Ports miteinander verbunden.</p>
+          <h2>Dokument</h2>
+          <p>Ein <i>Dokument</i> ist ein abgeschlossener Inhalt eines bestimmten Typs. Dokumente haben Eigenschaften, zum Beispiel und namentlich einen Inhaltstyp (<i>content type</i>) der sie z.B. als XML-Dokument (<code>application/xml</code>) oder Binärdokument (<code>application/octet-stream</code>) ausweist. Der Inhaltstyp eines Dokuments entscheidet über die anwendbaren Schritte.</p>
+          <h2>Pipeline</h2>
+          <p>Eine <i>Pipeline</i> ist eine (nicht-lineare) Abfolge von <i>atomischen</i> Verarbeitungsschritten. Eine Pipeline kann selbst als Schritt fungieren.</p>
+      </div>
+      <div class="slide">
+          <h1>Eine einfache Pipeline</h1>
+          <figure>
+              <pre><code class="language-xml">&lt;p:declare-step version="3.0"
+                xmlns:p="http://www.w3.org/ns/xproc"
+                xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  &lt;p:documentation>
+    This is a simple pipeline with one input port, one output port,
+    and one option.
+  &lt;/p:documentation>
+
+  &lt;p:input port="source"/>
+  &lt;p:output port="result"/>
+
+  &lt;p:option name="name" as="xs:string" required="true"/>
+
+  &lt;p:identity message="Hello {$name}! Just passing through!"/>
+
+&lt;/p:declare-step></code></pre>
+              <figcaption>Pipeline exercise/02-simple/pipeline.xpl</figcaption>
+          </figure>
+      </div>
+      <div class="slide">
+          <h1>Übung 2: Eine einfache Pipeline</h1>
+          <figure>
+              <pre><code>bin/morgana/Morgana.bat \
+    exercises/02-simple/pipeline.xpl -option:name="David" -input:source=document.xml</code></pre>
+              <figcaption>Pipeline exercise/02-simple/pipeline.xpl ausführen</figcaption>
+          </figure>
+      </div>
+      <div class="slide titlepage">
+          <h1>Verbindung von Schritten</h1>
+      </div>
+      <div class="slide">
+          <h1>Implizite Verbindung von Ports</h1>
+          <figure>
+              <pre><code class="language-xml">&lt;p:declare-step xmlns:p="http://www.w3.org/ns/xproc">
+
+  &lt;p:input port="source"/>
+  &lt;p:output port="result"/>
+
+  &lt;p:xslt name="xslt-1">
+    &lt;p:with-input port="stylesheet" href="xslt-1.xsl"/>
+  &lt;/p:xslt>
+
+  &lt;p:xslt name="xslt-2">
+    &lt;p:with-input port="stylesheet" href="xslt-2.xsl"/>
+  &lt;/p:xslt>
+
+&lt;/p:declare-step></code></pre>
+              <figcaption>Beispiel für implizite Verbindung von Ports</figcaption>
+          </figure>
+      </div>
+      <div class="slide">
+          <h1>Implizite Verbindung von Ports</h1>
+          <figure style="float: right; width: 50%;">
+              <img src="implicit-connection-1.svg">
+          </figure>
+          <p>Der <i>primäre Eingabeport</i> der Pipeline ist mit dem <i>primären Eingabeport</i> des in Dokumentreihenfolge ersten Schritts verbunden.</p>
+          <p>Der <i>primäre Ausgabeport</i> des in Dokumentreihenfolge letzten Schritts ist mit dem <i>primären Ausgabeport</i> der Pipeline verbunden.</p>
+      </div>
+      <div class="slide">
+          <h1>Implizite Verbindung von Ports</h1>
+          <figure style="float: right; width: 50%;">
+              <img src="implicit-connection-2.svg">
+          </figure>
+          <p>Der <i>primäre Eingabeport</i> der Pipeline ist mit dem <i>primären Eingabeport</i> des in Dokumentreihenfolge ersten Schritts verbunden.</p>
+          <p>Der <i>primäre Ausgabeport</i> des in Dokumentreihenfolge letzten Schritts ist mit dem <i>primären Ausgabeport</i> der Pipeline verbunden.</p>
+          <p>Folgen zwei Schritte in Dokumentreihenfolge aufeinander und die Verbindung der Ports ist nicht explizit, dann wird der <i>primäre Ausgabeport</i> des
+              ersten Schritts mit dem <i>primären Eingabeport</i> des zweiten Schrittes verbunden.</p>
+      </div>
+      <div class="slide">
+          <h1>Implizite Verbindung von Ports</h1>
+          <figure>
+              <img src="implicit-connection-3.svg">
+          </figure>
+      </div>
+      <div class="slide">
+          <h1>Implizite Verbindung von Ports – Zusammenfassung</h1>
+          <p>In vielen Fällen ist es ausreichend, sich auf die Regeln der implizten Verbindung von Ports zu verlassen.</p>
+          <p>Die <i>explizite</i> Verbindung von Ports wird spätestens dann notwendig, wenn…</p>
+          <ul>
+              <li>eine Pipeline ein Dokument in zwei unabhängigen Schritten verarbeitet</li>
+              <li>mehrere Eingabeports eines Schrittes benutzt werden</li>
+              <li>mehrere Ausgabeports eines Schrittes benutzt werden</li>
+          </ul>
+      </div>
+      <div class="slide">
+          <h1>Explizite Verbindung von Ports</h1>
+          <p>Dokumente werden <q>gezogen</q> (<i>pull</i>), nicht <q>geschoben</q> (<i>push</i>).</p>
+          <ul>
+              <li>
+                  <p>Verbindung mit einem externen Dokument</p>
+                  <pre><code class="language-xml">&lt;p:with-input port="…" href="…"/></code></pre>
+              </li>
+              <li>
+                  <p>Verbindung mit dem Ausgabeport eines anderen Schritts</p>
+                  <pre><code class="language-xml">&lt;p:with-input port="…" pipe="port@schritt"/></code></pre>
+              </li>
+          </ul>
+      </div>
+      <div class="slide">
+          <h1>Explizite Verbindung von Ports</h1>
+          <ul>
+              <li>
+                  <p>Verbindung mit einem <i>inline</i> Dokument</p>
+                  <pre><code class="language-xml">&lt;p:with-input port="…">
+  &lt;p:inline>
+    &lt;document>…&lt;/document>
+  &lt;/p:inline>
+&lt;/p:with-input></code></pre>
+              </li>
+              <li>
+                  <p>Verbindung mit der leeren Sequenz</p>
+                  <pre><code class="language-xml">&lt;p:with-input port="…">
+  &lt;p:empty/>
+&lt;/p:with-input></code></pre>
+              </li>
+          </ul>
+      </div>
+      <div class="slide">
+          <h1>Explizite Verbindung von Ports</h1>
+          <figure>
+              <pre><code class="language-xml">&lt;p:declare-step version="3.0"
+                xmlns:p="http://www.w3.org/ns/xproc">
+
+  &lt;p:output port="result" pipe="result@create-html"/>
+  &lt;p:output port="result.rdf" pipe="result@create-rdf"/>
+
+  &lt;p:load href="document.xml" name="load-document"/>
+
+  &lt;p:xslt name="create-html">
+    &lt;p:with-input port="source" pipe="result@load-document"/>
+    &lt;p:with-input port="stylesheet" href="tei2html.xsl"/>
+  &lt;/p:xslt>
+
+  &lt;p:xslt name="create-rdf">
+    &lt;p:with-input port="source" pipe="result@load-document"/>
+    &lt;p:with-input port="stylesheet" href="tei2rdf.xsl"/>
+  &lt;/p:xslt>
+
+&lt;/p:declare-step></code></pre>
+              <figcaption>Beispiel für explizite Verbindung von Ports</figcaption>
+          </figure>
+      </div>
+      <div class="slide">
+          <h1>Explizite Verbindung von Ports</h1>
+          <figure style="width: 100%; display: block;">
+              <img style="width: 75%" src="explicit-connection-1.svg">
+          </figure>
+      </div>
+      <div class="slide">
+          <h1>Explizite Verbindung von Ports</h1>
+          <figure style="width: 100%; display: block;">
+              <img style="width: 75%" src="explicit-connection-2.svg">
+          </figure>
+      </div>
+      <div class="slide">
+          <h1>Explizite Verbindung von Ports – Zusammenfassung</h1>
+          <p>Die Reihenfolge in der Schritte ausgeführt werden ist durch die Verbindung ihrer Ports definiert, <em>nicht</em> durch die Reihenfolge in der Pipeline. Die Regeln der impliziten Portverbindung sorgen dafür, dass Schritt einer einfachen Pipeline in Dokumentreihenfolge ausgeführt werden.</p>
+          <p>Schritte, die nicht miteinander verbunden sind werden in <em>keiner bestimmten Reihenfolge</em> ausgeführt.</p>
+      </div>
+      <div class="slide titlepage">
+        <h1>Übungen &amp; Beispiel</h1>
+      </div>
+      <div class="slide">
+          <h1>Übersicht</h1>
+          <ul>
+              <li>Modifikation eines einzelnen Dokuments</li>
+              <li>Definition eines eigenen Schritts</li>
+              <li>Publikationspipeline XML und JSON (Beispiel)</li>
+              <li>Arbeit mit ZIP-Dateien (Beispiel)</li>
+          </ul>
+      </div>
+      <div class="slide">
+          <h1>Modifikation eines einzelnen Dokuments (04-single-document)</h1>
+          <p>
+              Die Datei <code>brief/HANSb13009/document.xml</code> ist ein im Projekt <a href="https://dehmel-digial.de" target="_blank">Dehmel Digital</a> im <i>Internformat</i> kodierter
+              Brief. Im Text werden neben Zeilen- und Seitenanfängen Wörter und Satzzeichen maschinell kodiert.
+          </p>
+          <pre><code class="language-xml" style="white-space: pre-wrap">&lt;ab>&lt;w lemma="Zu" type="O" pos="NNP" n="0">&lt;pb corresp="page/00000001.xml" xml:id="HANSb13009-page-00000001"/>&lt;pb corresp="page/00000002.xml" xml:id="HANSb13009-page-00000002"/>&lt;lb corresp="page/00000002.xml#line_1618472778067_422" xml:id="HANSb13009-line-00000001"/>Zu&lt;/w> &lt;w lemma="meinem" type="O" pos="NNP" n="1">meinem&lt;/w> &lt;w lemma="großen" type="O" pos="NNP" n="2">großen&lt;/w> &lt;w lemma="Bedauern" type="O" pos="NNP" n="3">Bedauern&lt;/w></code></pre>
+          <p>Eine Pipeline soll eine Lesefassung erstellen und die Änderung am Dokument mit einem Zeitstempel in der <code>revisionDesc</code> verzeichnen.</p>
+          <pre><code class="language-xml" style="white-space: pre-wrap">&lt;ab&gt;&lt;pb xml:id="HANSb13009-page-00000001"/>&lt;pb xml:id="HANSb13009-page-00000002"/>&lt;lb xml:id="HANSb13009-line-00000001"/>Zu meinem großen Bedauern&lt;/code>&lt;/pre></code></pre>
+      </div>
+      <div class="slide">
+          <h1>Modifikation eines einzelnen Dokuments (04-single-document)</h1>
+          <p>Funktionale Anforderungen an die Pipeline:</p>
+          <ul>
+              <li>Eingabeport <code>source</code> für das Quelldokument</li>
+              <li>Ausgabeport <code>result</code> für das Ergebnisdokument</li>
+              <li>Attribut mit dem Namen <code>corresp</code> löschen</li>
+              <li>Wörter und Satzzeichen <q>auswickeln</q> (<i>unwrap</i>)</li>
+              <li>Element <code>change</code> mit Zeitstempel einfügen</li>
+          </ul>
+      </div>
+      <div class="slide">
+          <h1>Modifikation eines einzelnen Dokuments (04-single-document)</h1>
+          <figure>
+              <pre><code class="language-xml">&lt;p:declare-step version="3.0"
+                xmlns:p="http://www.w3.org/ns/xproc"
+                xmlns:tei="http://www.tei-c.org/ns/1.0"
+                xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    &lt;p:input  port="source"/>
+    &lt;p:output port="result" serialization="map{'indent': true()}"/>
+
+    &lt;p:identity/>
+
+    &lt;!-- p:unwrap -->
+
+    &lt;!-- p:delete -->
+
+    &lt;!-- p:insert -->
+
+&lt;/p:declare-step></code></pre>
+              <figcaption>Vorlage für die Pipeline (<code>exercises/04-single-document/pipeline.xpl</code>).</figcaption>
+          </figure>
+      </div>
+      <div class="slide">
+          <h1>Modifikation eines einzelnen Dokuments (04-single-document)</h1>
+          <h2><code>p:unwrap</code></h2>
+          <blockquote>The p:unwrap step replaces matched elements with their children.</blockquote>
+          <figure>
+              <pre><code class="language-xml">&lt;p:declare-step type="p:unwrap">
+    &lt;p:input port="source" content-types="xml html"/>
+    &lt;p:output port="result" content-types="text xml html"/>
+    &lt;p:option name="match" as="xs:string" select="'/*'"/>
+&lt;/p:declare-step></code></pre>
+              <figcaption>Signatur von <code>p:unwrap</code></figcaption>
+          </figure>
+      </div>
+      <div class="slide">
+          <h1>Modifikation eines einzelnen Dokuments (04-single-document)</h1>
+          <h2><code>p:delete</code></h2>
+          <blockquote>The p:delete step deletes items specified by a selection pattern from the source input document and produces the resulting document, with the deleted items removed, on the result port.</blockquote>
+          <figure>
+              <pre><code class="language-xml">&lt;p:declare-step type="p:delete">
+    &lt;p:input port="source" content-types="xml html"/>
+    &lt;p:output port="result" content-types="text xml html"/>
+    &lt;p:option name="match" required="true" as="xs:string"/>
+&lt;/p:declare-step></code></pre>
+              <figcaption>Signatur von <code>p:delete</code></figcaption>
+          </figure>
+      </div>
+      <div class="slide">
+          <h1>Modifikation eines einzelnen Dokuments (04-single-document)</h1>
+          <h2><code>p:insert</code></h2>
+          <blockquote>The p:insert step inserts the insertion port's document into the source port's document relative to the matching elements in the source port's document.</blockquote>
+          <figure>
+              <pre><code class="language-xml">&lt;p:declare-step type="p:insert">
+    &lt;p:input port="source" primary="true" content-types="xml html"/>
+    &lt;p:input port="insertion" sequence="true" content-types="xml html"/>
+    &lt;p:output port="result" content-types="xml html"/>
+    &lt;p:option name="match" as="xs:string" select="'/*'"/>
+    &lt;p:option name="position" values="('first-child','last-child','before','after')" select="'after'"/>
+&lt;/p:declare-step></code></pre>
+              <figcaption>Signatur von <code>p:insert</code></figcaption>
+          </figure>
+      </div>
+      <div class="slide">
+          <h1>Definition eines eigenen Schritts</h1>
+          <p>Mit <code>p:declare-step</code> werden nicht nur ganze Pipelines, sondern auch Schritte <em>innerhalb</em> einer Pipeline definiert. Die drei Verarbeitungsschritte aus der vorangegangenen Übung können als ein Schritt zusammengefasst werden.</p>
+          <p>Eigene Schritte werden als <i>Typen</i> definiert die durch einen <code>QName</code> identifiziert werden.</p>
+          <figure>
+              <pre><code class="language-xml">&lt;p:declare-step xmlns="http://www.w3.org/ns/xproc" version="3.0"
+                xmlns:example="http://example.com/ns">
+
+    &lt;p:declare-step type="example:lesefassung">
+        …
+    &lt;/p:declare-step>
+
+    &lt;example:lesefassung/>
+
+&lt;/p:declare-step></code></pre>
+              <figcaption>Definition eines eigenen Schrittes</figcaption>
+          </figure>
+          <p>PS: Und ja, eine komplette Pipeline beliebiger Komplexität kann als Schritt importiert werden.</p>
+      </div>
+      <div class="slide">
+          <h1>Publikationspipeline XML und JSON (Beispiel)</h1>
+          <p>Übung <code>06-publish</code> beschreibt eine einfache Pipeline die Einträge in eines TEI-kodierten Registers als RDF/XML und als JSON-LD publiziert.</p>
+          <pre><code style="white-space: pre-wrap">&lt;person xml:id="gnd_118679236">
+    &lt;persName>Dehmel, Richard&lt;/persName>
+    &lt;idno>https://d-nb.info/gnd/118679236&lt;/idno>
+&lt;/person></code></pre>
+      </div>
+      <div class="slide">
+          <h1>Publikationspipeline XML und JSON (Beispiel)</h1>
+          <pre><code style="white-space: pre-wrap">&lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+            xmlns:schema="http://schema.org/">
+    &lt;schema:Person rdf:about="http://example.com/register/gnd_118679236">
+        &lt;schema:name>Dehmel, Richard&lt;/schema:name>
+        &lt;schema:sameAs>https://d-nb.info/gnd/118679236&lt;/schema:sameAs>
+    &lt;/schema:Person>
+&lt;/rdf:RDF></code></pre>
+              <pre><code style="white-space: pre-wrap" >{
+"@context":"http://schema.org/",
+"@type":"Person",
+"@id":"http://example.com/register/gnd_118679236",
+"name":"Dehmel, Richard",
+"sameAs":["https://d-nb.info/gnd/118679236"]
+}</code></pre>
+      </div>
+      <div class="slide">
+          <h1>Arbeit mit ZIP-Dateien (Beispiel)</h1>
+          <p>
+              Übung <code>06-publish</code> ist die Kopie einer Pipeline mit der Pakete mit Verlagsdaten im DNB-Standardformat in das Importformat von DSpace gewandelt werden.
+          </p>
+          <p>
+              Die funktionalen Anforderungen an diese Pipeline sind:
+          </p>
+          <ol>
+              <li>Validieren der Metadaten (Variationen von ONIX)</li>
+              <li>Transformation der Metadaten in Metadatenformat für DSpace</li>
+              <li>Erstellen eines Zielverzeichnisses im DSpace SAF-Format</li>
+              <li>Entpacken der PDF-Dateien und Ablage das Zielverzeichnis</li>
+              <li>Entpacken der Metadaten und Ablage das Zielverzeichnis</li>
+          </ol>
+      </div>
+      <div class="slide titlepage">
+          <h1>Offene Fragestunde</h1>
+      </div>
+    </main>
+    <footer>
+      Online-Workshop der Berlin-Brandenburgischen Akademie der Wissenschaften (bbaw) · Berlin 14. Oktober 2022
+    </footer>
+  </body>
+</html>

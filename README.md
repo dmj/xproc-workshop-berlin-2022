@@ -28,6 +28,12 @@ bin/morgana/Morgana.bat exercises/01-hello/pipeline.xpl  12.37s user 0.23s syste
 
 ## Lizenzen
 
+Die Folien unterliegen dem Copyright (c) 2022 von David Maus und sind unter den Bedingungen der [Creative Commons
+Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) veröffentlicht.
+
+Das Syntax-Highlighting in den Folien ist mit [highlight.js](https://highlightjs.org/) realsiert, dessen Verwendung der
+BSD 3-Clause unterliegt.
+
 MorganaXProc-III unterliegt dem Copyright (c) 2011-2022 von &lt;xml-project/> Achim Berndzen und ist unter der GNU
 General Publice License 3 veröffentlicht. Der Quelltext ist auf
 [SourceForge](https://sourceforge.net/projects/morganaxproc-iiise/) verfügbar.
@@ -39,3 +45,14 @@ Saxon HE 10.8 unterliegt dem Copyright (c) von Saxonica Ltd und ist unter der [M
 SchXslt Schematron unterliegt dem Copyright (c) 2018-2022 von David Maus und ist unter den Bedingungen der
 [MIT](https://opensource.org/licenses/MIT)-Lizenz veröffentlicht. Der Quelltext ist auf
 [Github](https://github.com/schxslt/schxslt) verfügbar.
+
+Die TEI-Dateien der Übungen ```04-single-document```, ```05-custom-step``` und ```06-publish``` stammen aus dem Projekt
+[Dehmel Digital](https://dehmel-digital.de) und sind unter den Bedingungen der [CC0 1.0 Universal (CC0 1.0) Public
+Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/) veröffentlicht.
+
+Die XProc-Pipelines und Transformationen der Übung ```07-zip``` werden im Rahmen des [FID
+Romanistik](https://fid-romanistik.de) gepflegt. Sie unterliegen dem Copyright (c) der Staats- und
+Universitätsbibliothek Hamburg und sind unter der GNU General Public License v3 veröffentlicht.
+
+Die ONIX Schemadateien und DTDs der Übung ```07-zip``` unterliegen dem Copyright von EDItEUR und sind unter den in den
+Dateien aufgeführten Lizenzbestimmungen benutzbar.
