@@ -18,4 +18,8 @@ fi
 # All related jars are expected to be in $MORGANA_LIB. For externals jars: Add them to $CLASSPATH
 CLASSPATH=$MORGANA_LIB:$MORGANA_HOME/MorganaXProc-IIIse.jar
 
-java $JAVA_AGENT -cp $CLASSPATH com.xml_project.morganaxproc3.XProcEngine -config=$MORGANA_HOME/config.xml "$@"
+if [ "x$@" = "x" ]; then
+    java $JAVA_AGENT -cp $CLASSPATH com.xml_project.morganaxproc3.XProcEngine
+else
+    java $JAVA_AGENT -cp $CLASSPATH com.xml_project.morganaxproc3.XProcEngine -config=$MORGANA_HOME/config.xml "$@"
+fi
