@@ -181,6 +181,18 @@
           <p>Eine <i>Pipeline</i> ist eine (nicht-lineare) Abfolge von <i>atomischen</i> Verarbeitungsschritten. Eine Pipeline kann selbst als Schritt fungieren.</p>
       </div>
       <div class="slide">
+          <h1>XProc 3 verwenden</h1>
+          <ul>
+              <li>&lt;oXygen/> unterstützt bisher nur XProc 1.0</li>
+              <li>XProc 3 kann als Dokumenttyp konfiguriert werden, die <i>code completion</i> funktioniert jedoch nicht :(</li>
+              <li>MorganaXProc-III von der Kommandozeile</li>
+          </ul>
+          <pre><code>bin/morgana/Morgana.bat &lt;/Pfad/zur/Pipeline>
+  [-option:&lt;Name-der-Option>=&lt;Wert>]*
+  [-input:&lt;Name-des-Eingabeports>=&lt;/Pfad/zu/Datei>]*
+  [-output:&lt;Name-des-Ausgabeports>=&lt;/Pfad/zu/Datei>]*</code></pre>
+      </div>
+            <div class="slide">
           <h1>Eine einfache Pipeline</h1>
           <figure>
               <pre><code class="language-xml">&lt;p:declare-step version="3.0"
@@ -251,12 +263,6 @@
           <p>Der <i>primäre Ausgabeport</i> des in Dokumentreihenfolge letzten Schritts ist mit dem <i>primären Ausgabeport</i> der Pipeline verbunden.</p>
           <p>Folgen zwei Schritte in Dokumentreihenfolge aufeinander und die Verbindung der Ports ist nicht explizit, dann wird der <i>primäre Ausgabeport</i> des
               ersten Schritts mit dem <i>primären Eingabeport</i> des zweiten Schrittes verbunden.</p>
-      </div>
-      <div class="slide">
-          <h1>Implizite Verbindung von Ports</h1>
-          <figure>
-              <img src="implicit-connection-3.svg">
-          </figure>
       </div>
       <div class="slide">
           <h1>Implizite Verbindung von Ports – Zusammenfassung</h1>
