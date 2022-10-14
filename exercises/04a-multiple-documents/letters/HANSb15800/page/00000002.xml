@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=German Kurrent M1+(htr_id=10384)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.7
+Transkribus</Creator>
+        <Created>2020-06-02T13:47:40.734+02:00</Created>
+        <LastChange>2022-04-11T10:38:26.553+02:00</LastChange>
+        <TranskribusMetadata docId="399367" pageId="15467816" pageNr="2" tsid="80396735" status="IN_PROGRESS" userId="17934" imgUrl="https://files.transkribus.eu/Get?id=WNRRMRVKHYQFQJMLEMAWLAKV&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=SELEWNGSDRIWWCNFGUHFJPKN" imageId="11302982"/>
+    </Metadata>
+    <Page imageFilename="00000002.tif" imageWidth="3848" imageHeight="2423">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1649766743355" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_1605606359804_2646"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="region_1605606359804_2646" custom="readingOrder {index:0;}">
+            <Coords points="507,113 3214,113 3214,1899 507,1899"/>
+            <TextLine id="line_1609935428888_2081" custom="readingOrder {index:0;} multiple_writings_LiliencronD {offset:0; length:29; continued:true;}">
+                <Coords points="1601,281 1855,278 2124,262 2269,272 2529,273 2797,270 2921,268 3038,277 3107,317 3136,400 3146,438 3097,450 3088,413 3068,349 3024,325 2920,318 2798,320 2529,323 2267,322 2124,312 1857,328 1602,331"/>
+                <Baseline points="1602,326 1857,323 2124,307 2267,317 2529,318 2798,315 2920,313 3025,320 3072,346 3093,412 3102,449"/>
+                <TextEquiv>
+                    <Unicode>Eben, mein herzlicher, hörten</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1605606359804_2646l2" custom="readingOrder {index:1;} multiple_writings_LiliencronD {offset:0; length:37; continued:true;}">
+                <Coords points="507,475 1668,526 1997,450 2602,618 3011,546 3015,377 2857,291 2705,413 2299,316 1992,408 1586,314 1415,410 1165,328 509,373"/>
+                <Baseline points="524,461 647,465 771,468 894,473 1018,474 1142,477 1265,479 1389,480 1513,482 1636,482 1760,483 1884,485 2007,487 2131,489 2255,492 2378,495 2502,498 2626,503 2749,509 2873,515 2997,522"/>
+                <TextEquiv>
+                    <Unicode>wir von Eugen Lindner Deine tragische</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1605606359804_2646l3" custom="readingOrder {index:2;} multiple_writings_LiliencronD {offset:0; length:35; continued:true;}">
+                <Coords points="534,738 1250,633 3031,759 3085,617 2097,515 1595,577 1457,485 1347,562 539,515"/>
+                <Baseline points="551,644 676,648 802,651 928,654 1054,657 1179,659 1305,660 1431,660 1557,662 1682,663 1808,663 1934,665 2060,668 2185,669 2311,674 2437,678 2563,683 2688,690 2814,698 2940,708 3066,719"/>
+                <TextEquiv>
+                    <Unicode>Erscheinung. Wir waren von Lindners</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1605606359804_2646l4" custom="readingOrder {index:3;} multiple_writings_LiliencronD {offset:0; length:31; continued:true;}">
+                <Coords points="497,847 2519,852 2749,968 3075,913 3078,745 2468,698 2336,769 2150,677 1954,765 1732,678 1195,799 752,673 499,761"/>
+                <Baseline points="513,840 640,842 767,842 894,842 1022,842 1149,840 1276,840 1404,839 1531,839 1658,839 1786,840 1913,840 2040,843 2167,846 2295,851 2422,856 2549,863 2677,870 2804,881 2931,893 3068,943"/>
+                <TextEquiv>
+                    <Unicode>wunder-wundervoller Composition</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1605606359804_2646l5" custom="readingOrder {index:4;} multiple_writings_LiliencronD {offset:0; length:38; continued:true;}">
+                <Coords points="499,1051 1464,1013 1899,1131 2024,1046 2562,1027 2714,1149 2836,1077 2838,816 2458,940 2341,853 1993,956 1854,841 1487,943 943,847 500,920"/>
+                <Baseline points="515,1031 630,1026 745,1022 860,1020 975,1019 1091,1019 1206,1019 1321,1020 1436,1021 1551,1023 1667,1025 1782,1028 1897,1029 2012,1031 2127,1034 2243,1034 2358,1035 2473,1035 2588,1034 2806,1051 3023,1214"/>
+                <TextEquiv>
+                    <Unicode>und Deinem tiefen, tiefen Gedicht alle</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1605606359804_2646l7" custom="readingOrder {index:5;} multiple_writings_LiliencronD {offset:0; length:41; continued:true;} textStyle {offset:0; length:11;underlined:true; fontSize:0.0; kerning:0;}">
+                <Coords points="504,1279 1820,1158 2847,1304 2995,1210 2997,1009 2696,1124 2143,1034 1913,1114 1402,1026 506,1095"/>
+                <Baseline points="521,1196 643,1196 766,1196 889,1196 1012,1194 1135,1193 1258,1191 1380,1190 1503,1188 1626,1187 1749,1187 1872,1187 1995,1187 2118,1190 2240,1193 2363,1197 2486,1203 2658,1225 2786,1265 2925,1327 3120,1499"/>
+                <TextEquiv>
+                    <Unicode>erschüttert. Immer und immer Dein Detlev.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1605606359804_2646l9" custom="readingOrder {index:6;} multiple_writings_LindnerE {offset:0; length:43; continued:true;}">
+                <Coords points="547,1359 1285,1430 1499,1359 1645,1433 1973,1338 2635,1456 2781,1432 2783,1301 1631,1239 1458,1314 1300,1223 1175,1298 847,1320 685,1236 547,1295"/>
+                <Baseline points="564,1343 674,1350 784,1355 894,1356 1004,1358 1114,1356 1224,1355 1334,1353 1444,1350 1554,1347 1665,1344 1775,1343 1885,1341 1995,1343 2105,1344 2215,1349 2325,1354 2435,1362 2545,1375 2702,1412 3093,1556"/>
+                <TextEquiv>
+                    <Unicode>Dem verehrten Dichter viele herzliche Grüße</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1605606359804_2646l11" custom="readingOrder {index:7;} multiple_writings_LindnerE {offset:0; length:37; continued:true;}">
+                <Coords points="522,1512 1505,1554 1984,1486 2145,1572 2394,1514 2826,1598 2828,1493 2480,1395 2236,1473 2098,1374 1749,1464 524,1423"/>
+                <Baseline points="540,1470 653,1478 767,1484 880,1488 994,1491 1107,1494 1221,1494 1334,1494 1448,1494 1561,1494 1675,1494 1789,1495 1902,1496 2016,1497 2129,1500 2243,1505 2356,1511 2470,1519 2583,1528 2697,1541 2811,1556"/>
+                <TextEquiv>
+                    <Unicode>der dankbaren Componist. Eugen Linder</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1605606359804_2646l13" custom="readingOrder {index:8;} multiple_writings_GastP {offset:0; length:44;} textStyle {offset:33; length:10;underlined:true; fontSize:0.0; kerning:0;}">
+                <Coords points="536,1673 1686,1668 1888,1605 2273,1750 2609,1677 2611,1575 2244,1603 2071,1510 1955,1565 1667,1515 1563,1586 539,1530"/>
+                <Baseline points="552,1646 654,1642 756,1638 858,1635 960,1634 1062,1632 1164,1632 1266,1632 1368,1634 1470,1635 1573,1637 1675,1640 1777,1643 1879,1647 1981,1651 2083,1656 2185,1661 2287,1665 2389,1671 2491,1676 2594,1682"/>
+                <TextEquiv>
+                    <Unicode>In ausgezeichneter Hochschätzung Peter Gast.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1605606359804_2646l14" custom="readingOrder {index:9;} multiple_writings_KielmanseggA {offset:0; length:28;}">
+                <Coords points="560,1849 741,1782 1091,1800 1197,1861 1302,1857 1378,1781 1591,1777 1668,1825 1747,1796 1747,1653 1410,1717 1133,1641 878,1737 665,1661 560,1680"/>
+                <Baseline points="576,1755 633,1764 691,1769 749,1776 806,1779 864,1781 922,1784 979,1784 1037,1784 1095,1784 1153,1783 1210,1782 1268,1780 1326,1778 1383,1776 1441,1775 1499,1772 1556,1770 1614,1770 1672,1769 1730,1769"/>
+                <TextEquiv>
+                    <Unicode>Graf Kielmansegg (dankbarst)</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1609935375919_2065" custom="readingOrder {index:10;} illegible {offset:0; length:16;} multiple_writings_unbekannt {offset:0; length:16;}">
+                <Coords points="2087,1754 2232,1758 2334,1748 2483,1743 2585,1746 2728,1746 2837,1748 2961,1747 3027,1748 3026,1798 2961,1797 2837,1798 2728,1796 2584,1796 2483,1793 2337,1798 2234,1808 2086,1804"/>
+                <Baseline points="2086,1799 2234,1803 2337,1793 2483,1788 2584,1791 2728,1791 2837,1793 2961,1792 3026,1793"/>
+                <TextEquiv>
+                    <Unicode>Huey Lindarlrben</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1609935311533_2052" custom="readingOrder {index:11;} multiple_writings_WittekoppB {offset:0; length:52;}">
+                <Coords points="3058,1847 2944,1851 2783,1859 2642,1853 2501,1869 2385,1869 2220,1863 2089,1860 1947,1871 1797,1850 1605,1862 1447,1856 1335,1870 1281,1870 1281,1820 1332,1820 1445,1806 1604,1812 1799,1800 1948,1821 2088,1810 2221,1813 2386,1819 2498,1819 2640,1803 2783,1809 2942,1801 3056,1797"/>
+                <Baseline points="3056,1802 2942,1806 2783,1814 2640,1808 2498,1824 2386,1824 2221,1818 2088,1815 1948,1826 1799,1805 1604,1817 1440,1821 815,1835 706,1807"/>
+                <TextEquiv>
+                    <Unicode>Benedictus Wittekopp. Brief folgt von Altona (Elbe).</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1609835673116_1487" custom="readingOrder {index:12;} multiple_writings_LiliencronD {offset:0; length:44;} textStyle {offset:21; length:4;underlined:true; fontSize:0.0; kerning:0;}">
+                <Coords points="3200,164 3200,327 3175,510 3175,729 3166,949 3180,1233 3193,1418 3184,1609 3176,1727 3148,1851 3131,1903 3083,1886 3100,1838 3126,1720 3134,1606 3143,1419 3130,1236 3116,949 3125,728 3125,507 3150,324 3150,164"/>
+                <Baseline points="3155,164 3155,324 3130,507 3130,728 3121,949 3135,1236 3148,1419 3139,1606 3131,1721 3105,1839 3088,1888"/>
+                <TextEquiv>
+                    <Unicode>Mein Söhnchen heißt: Wulf Kai (Cajus) Detlev</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Eben, mein herzlicher, hörten&#13;
+wir von Eugen Lindner Deine tragische&#13;
+Erscheinung. Wir waren von Lindners&#13;
+wunder-wundervoller Composition&#13;
+und Deinem tiefen, tiefen Gedicht alle&#13;
+erschüttert. Immer und immer Dein Detlev.&#13;
+Dem verehrten Dichter viele herzliche Grüße&#13;
+der dankbaren Componist. Eugen Linder&#13;
+In ausgezeichneter Hochschätzung Peter Gast.&#13;
+Graf Kielmansegg (dankbarst)&#13;
+Huey Lindarlrben&#13;
+Benedictus Wittekopp. Brief folgt von Altona (Elbe).&#13;
+Mein Söhnchen heißt: Wulf Kai (Cajus) Detlev</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

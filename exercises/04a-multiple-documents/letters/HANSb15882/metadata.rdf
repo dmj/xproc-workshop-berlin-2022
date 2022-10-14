@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <dct:BibliographicResource xmlns:dct="http://purl.org/dc/terms/"><dct:type>
+         <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+            <skos:prefLabel>Brief</skos:prefLabel>
+         </skos:Concept>
+      </dct:type><dehmel:shelfmark xmlns:dehmel="http://id.dehmel.digital/vocab#">DA : Br : BKB III : Bl. 85</dehmel:shelfmark><marcrel:aut xmlns:marcrel="http://id.loc.gov/vocabulary/relators/">
+         <foaf:Person xmlns:foaf="http://xmlns.com/foaf/0.1/"><dehmel:localIdentifier xmlns:dehmel="http://id.dehmel.digital/vocab#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:edm="http://www.europeana.eu/schemas/edm/">gnd_118679236</dehmel:localIdentifier>
+            <owl:sameAs rdf:resource="https://d-nb.info/gnd/118679236" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:map="http://www.w3.org/2005/xpath-functions/map"/>
+            <foaf:name>Dehmel, Richard</foaf:name>
+            
+         </foaf:Person>
+      </marcrel:aut><marcrel:rcp xmlns:marcrel="http://id.loc.gov/vocabulary/relators/">
+         <foaf:Person xmlns:foaf="http://xmlns.com/foaf/0.1/"><dehmel:localIdentifier xmlns:dehmel="http://id.dehmel.digital/vocab#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:edm="http://www.europeana.eu/schemas/edm/">gnd_118508466</dehmel:localIdentifier>
+            <owl:sameAs rdf:resource="https://d-nb.info/gnd/118508466" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:map="http://www.w3.org/2005/xpath-functions/map"/>
+            <foaf:name>Behrens, Peter</foaf:name>
+            
+         </foaf:Person>
+      </marcrel:rcp><dct:title>Brief an Peter Behrens</dct:title><dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">19.10.1903</dc:date><dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1903-10-19</dct:date><dc:extent xmlns:dc="http://purl.org/dc/elements/1.1/">1 Br. in Kopie</dc:extent><dehmel:hansIdentifier xmlns:dehmel="http://id.dehmel.digital/vocab#">b15882</dehmel:hansIdentifier><dehmel:typeOfWriting xmlns:dehmel="http://id.dehmel.digital/vocab#" xmlns:marcrel="http://id.loc.gov/vocabulary/relators/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <skos:Concept>
+            <skos:prefLabel>eigenhändig</skos:prefLabel>
+          </skos:Concept>
+        </dehmel:typeOfWriting><dehmel:hasSignet rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean" xmlns:dehmel="http://id.dehmel.digital/vocab#" xmlns:tsv="tag:dehmel.digital,2022:Projektdaten:tsvlib" xmlns:xs="http://www.w3.org/2001/XMLSchema">false</dehmel:hasSignet><dehmel:hasLetterHead rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean" xmlns:dehmel="http://id.dehmel.digital/vocab#" xmlns:tsv="tag:dehmel.digital,2022:Projektdaten:tsvlib" xmlns:xs="http://www.w3.org/2001/XMLSchema">false</dehmel:hasLetterHead><dehmel:onRecycledPaper rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean" xmlns:dehmel="http://id.dehmel.digital/vocab#" xmlns:tsv="tag:dehmel.digital,2022:Projektdaten:tsvlib" xmlns:xs="http://www.w3.org/2001/XMLSchema">false</dehmel:onRecycledPaper></dct:BibliographicResource>
+</rdf:RDF>

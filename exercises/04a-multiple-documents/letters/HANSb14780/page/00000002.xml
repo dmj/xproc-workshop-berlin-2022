@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+Transkribus</Creator>
+        <Created>2020-05-07T16:39:07.021+02:00</Created>
+        <LastChange>2021-02-18T16:36:43.024+01:00</LastChange>
+        <TranskribusMetadata docId="381927" pageId="14891631" pageNr="2" tsid="52825554" status="IN_PROGRESS" userId="17934" imgUrl="https://files.transkribus.eu/Get?id=UIHLEKMMJIAETOIHVHUGJRYJ&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=BHVNQOCNFBOXXCROAPWCNSYD" imageId="10820798"/>
+    </Metadata>
+    <Page imageFilename="00000002.tif" imageWidth="3849" imageHeight="2478">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1614251205789" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_1589370223075_968"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="region_1589370223075_968" custom="readingOrder {index:0;}">
+            <Coords points="507,187 3161,187 3161,1934 507,1934"/>
+            <TextLine id="line_1593700346136_1205" custom="readingOrder {index:0;}">
+                <Coords points="1672,457 1547,478 1417,477 1373,495 1166,474 1078,480 996,480 801,481 671,491 668,441 799,431 996,430 1077,430 1167,424 1366,445 1407,428 1543,428 1664,408"/>
+                <Baseline points="1665,413 1543,433 1408,433 1367,450 1167,429 1077,435 996,435 799,436 668,446"/>
+                <TextEquiv>
+                    <Unicode>Sind Ihre Verleger schon so zahm</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1593700355783_1210" custom="readingOrder {index:1;}">
+                <Coords points="1710,375 1484,383 1211,384 1056,386 956,386 663,392 662,342 956,336 1056,336 1211,334 1483,333 1708,325"/>
+                <Baseline points="1708,330 1483,338 1211,339 1056,341 956,341 662,347"/>
+                <TextEquiv>
+                    <Unicode>geworden, daß sie diese unmöglichen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1593700363328_1215" custom="readingOrder {index:2;}">
+                <Coords points="1794,291 1437,297 1188,300 869,315 594,320 593,270 868,265 1187,250 1436,247 1793,241"/>
+                <Baseline points="1793,246 1436,252 1187,255 868,270 593,275"/>
+                <TextEquiv>
+                    <Unicode>Wünsche von Lyrikern befriedigen können?</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1593700371864_1220" custom="readingOrder {index:3;}">
+                <Coords points="1937,241 1637,246 1438,246 1221,255 840,258 537,257 537,207 840,208 1220,205 1437,196 1637,196 1936,191"/>
+                <Baseline points="1936,196 1637,201 1437,201 1220,210 840,213 537,212"/>
+                <TextEquiv>
+                    <Unicode>Erinnern Sie sich noch dieses „Zahm-Werdens‟? Donath</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1589375855604_1159" custom="readingOrder {index:4;} unclear {offset:13; length:13; continued:true;}">
+                <Coords points="1800,325 2119,301 2378,289 2744,282 2859,313 3147,303 3149,353 2853,363 2738,332 2379,339 2122,351 1803,375"/>
+                <Baseline points="1803,370 2122,346 2379,334 2739,327 2854,358 3149,348"/>
+                <TextEquiv>
+                    <Unicode>Wien 14/6 99 TX Gr. Thor, </Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1589375857987_1164" custom="readingOrder {index:5;} unclear {offset:0; length:2; continued:true;}">
+                <Coords points="3077,376 3171,414 3152,461 3058,423"/>
+                <Baseline points="3060,418 3154,456"/>
+                <TextEquiv>
+                    <Unicode>31</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1589375912013_1178" custom="readingOrder {index:6;}">
+                <Coords points="611,588 1026,560 1433,557 1702,542 2162,517 2527,517 2923,511 2924,561 2527,567 2163,567 1704,592 1434,607 1028,610 614,638"/>
+                <Baseline points="614,633 1028,605 1434,602 1704,587 2163,562 2527,562 2924,556"/>
+                <TextEquiv>
+                    <Unicode>Lieber Herr Doctor! Ich möchte so gern</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1589370223075_968l8" custom="readingOrder {index:7;}">
+                <Coords points="599,794 715,798 832,800 948,801 1065,800 1182,797 1298,794 1415,789 1531,785 1648,780 1765,774 1881,769 1998,764 2114,759 2231,755 2348,752 2464,749 2581,749 2697,749 2814,752 2931,756 2931,693 2814,689 2697,686 2581,686 2464,686 2348,689 2231,692 2114,696 1998,701 1881,706 1765,711 1648,717 1531,722 1415,726 1298,731 1182,734 1065,737 948,738 832,737 715,735 599,731"/>
+                <Baseline points="599,773 715,777 832,779 948,780 1065,779 1182,776 1298,773 1415,768 1531,764 1648,759 1765,753 1881,748 1998,743 2114,738 2231,734 2348,731 2464,728 2581,728 2697,728 2814,731 2931,735"/>
+                <TextEquiv>
+                    <Unicode>einmal wieder was von Ihnen hören. Bitte sehr</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1589370223075_968l9" custom="readingOrder {index:8;}">
+                <Coords points="662,954 742,951 822,950 903,947 983,944 1064,940 1144,937 1225,933 1305,929 1386,924 1466,921 1546,918 1627,914 1707,911 1788,907 1868,905 1949,902 2029,900 2110,900 2190,899 2271,900 2271,837 2190,836 2110,837 2029,837 1949,839 1868,842 1788,844 1707,848 1627,851 1546,855 1466,858 1386,861 1305,866 1225,870 1144,874 1064,877 983,881 903,884 822,887 742,888 662,891"/>
+                <Baseline points="662,933 742,930 822,929 903,926 983,923 1064,919 1144,916 1225,912 1305,908 1386,903 1466,900 1546,897 1627,893 1707,890 1788,886 1868,884 1949,881 2029,879 2110,879 2190,878 2271,879"/>
+                <TextEquiv>
+                    <Unicode>darum. Für heute viele Grüße</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1589370223075_968l10" custom="readingOrder {index:9;}">
+                <Coords points="2541,941 2566,943 2592,946 2618,947 2643,948 2669,950 2695,950 2721,950 2746,950 2772,948 2798,948 2823,948 2849,947 2875,947 2901,947 2901,884 2875,884 2849,884 2823,885 2798,885 2772,885 2746,887 2721,887 2695,887 2669,887 2643,885 2618,884 2592,883 2566,880 2541,878"/>
+                <Baseline points="2239,954 2566,922 2592,925 2618,926 2643,927 2669,929 2695,929 2721,929 2746,929 2772,927 2798,927 2823,927 2849,926 2875,926 2901,926"/>
+                <TextEquiv>
+                    <Unicode>Ihr Donath</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1589377881621_1364" custom="readingOrder {index:10;} multiple_writings_WimmerS {offset:0; length:31; continued:true;}">
+                <Coords points="2257,1103 668,1122 667,1072 2256,1053"/>
+                <Baseline points="2256,1058 667,1077"/>
+                <TextEquiv>
+                    <Unicode>Sie erinnern sich wol kaum mehr</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1589377884296_1369" custom="readingOrder {index:11;} multiple_writings_WimmerS {offset:0; length:2; continued:true;}">
+                <Coords points="2353,1057 2265,1029 2281,981 2369,1009"/>
+                <Baseline points="2367,1014 2279,986"/>
+                <TextEquiv>
+                    <Unicode>an</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1589377886635_1374" custom="readingOrder {index:12;} multiple_writings_WimmerS {offset:0; length:18; continued:true;}">
+                <Coords points="2326,1018 3058,1039 3057,1089 2325,1068"/>
+                <Baseline points="2325,1063 3057,1084"/>
+                <TextEquiv>
+                    <Unicode>mich, Ihren steten</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1589370223075_968l13" custom="readingOrder {index:13;} multiple_writings_WimmerS {offset:0; length:54; continued:true;}">
+                <Coords points="698,1224 813,1224 929,1224 1045,1223 1161,1221 1277,1220 1392,1217 1508,1215 1624,1214 1740,1212 1856,1211 1971,1210 2087,1209 2203,1211 2319,1211 2435,1214 2550,1217 2666,1221 2782,1226 2898,1232 3014,1241 3014,1178 2898,1169 2782,1163 2666,1158 2550,1154 2435,1151 2319,1148 2203,1148 2087,1146 1971,1147 1856,1148 1740,1149 1624,1151 1508,1152 1392,1154 1277,1157 1161,1158 1045,1160 929,1161 813,1161 698,1161"/>
+                <Baseline points="698,1203 813,1203 929,1203 1045,1202 1161,1200 1277,1199 1392,1196 1508,1194 1624,1193 1740,1191 1856,1190 1971,1189 2087,1188 2203,1190 2319,1190 2435,1193 2550,1196 2666,1200 2782,1205 2898,1211 3014,1220"/>
+                <TextEquiv>
+                    <Unicode>Verehrer Ihrer Poesien. Zeihen Sie mich, bitte, keiner</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1589379902535_1575" custom="readingOrder {index:14;} multiple_writings_WimmerS {offset:0; length:21; continued:true;}">
+                <Coords points="689,1271 831,1295 1143,1300 1355,1286 1667,1291 1666,1341 1356,1336 1144,1350 827,1345 680,1320"/>
+                <Baseline points="681,1315 827,1340 1144,1345 1356,1331 1666,1336"/>
+                <TextEquiv>
+                    <Unicode>Unverschämtheit, wenn</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1589379904292_1580" custom="readingOrder {index:15;} multiple_writings_WimmerS {offset:0; length:3; continued:true;}">
+                <Coords points="1696,1224 1732,1240 1712,1286 1676,1270"/>
+                <Baseline points="1678,1265 1714,1281"/>
+                <TextEquiv>
+                    <Unicode>ich</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1589379909521_1585" custom="readingOrder {index:16;} multiple_writings_WimmerS {offset:0; length:25; continued:true;}">
+                <Coords points="1739,1284 1820,1284 1984,1277 3000,1279 3000,1329 1985,1327 1821,1334 1739,1334"/>
+                <Baseline points="1739,1329 1821,1329 1985,1322 3000,1324"/>
+                <TextEquiv>
+                    <Unicode>Sie um Bild und Autogramm</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1589370223075_968l15" custom="readingOrder {index:17;} multiple_writings_WimmerS {offset:0; length:46; continued:true;}">
+                <Coords points="660,1463 764,1459 869,1457 974,1454 1079,1451 1184,1448 1289,1447 1393,1445 1498,1442 1603,1441 1708,1441 1813,1439 1918,1439 2023,1438 2127,1438 2232,1438 2337,1438 2442,1439 2547,1439 2652,1441 2757,1441 2757,1381 2652,1381 2547,1379 2442,1379 2337,1378 2232,1378 2127,1378 2023,1378 1918,1379 1813,1379 1708,1381 1603,1381 1498,1382 1393,1385 1289,1387 1184,1388 1079,1391 974,1394 869,1397 764,1399 660,1403"/>
+                <Baseline points="660,1443 764,1439 869,1437 974,1434 1079,1431 1184,1428 1289,1427 1393,1425 1498,1422 1603,1421 1708,1421 1813,1419 1918,1419 2023,1418 2127,1418 2232,1418 2337,1418 2442,1419 2547,1419 2652,1421 2757,1421"/>
+                <TextEquiv>
+                    <Unicode>ersuche! Herzlichsten Dank im voraus von Ihrem</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1589370223075_968l16" custom="readingOrder {index:18;} multiple_writings_WimmerS {offset:0; length:14; continued:true;}">
+                <Coords points="2253,1515 2289,1518 2325,1521 2361,1522 2398,1524 2434,1525 2470,1525 2506,1525 2543,1525 2579,1524 2615,1524 2651,1523 2688,1522 2724,1521 2760,1521 2796,1521 2833,1521 2869,1521 2905,1522 2941,1523 2978,1525 2978,1468 2941,1466 2905,1465 2869,1464 2833,1464 2796,1464 2760,1464 2724,1464 2688,1465 2651,1466 2615,1467 2579,1467 2543,1468 2506,1468 2470,1468 2434,1468 2398,1467 2361,1465 2325,1464 2289,1461 2253,1458"/>
+                <Baseline points="2253,1496 2289,1499 2325,1502 2361,1503 2398,1505 2434,1506 2470,1506 2506,1506 2543,1506 2579,1505 2615,1505 2651,1504 2688,1503 2724,1502 2760,1502 2796,1502 2833,1502 2869,1502 2905,1503 2941,1504 2978,1506"/>
+                <TextEquiv>
+                    <Unicode>sehr ergebenen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1589375946696_1199" custom="readingOrder {index:19;} multiple_writings_WimmerS {offset:0; length:14; continued:true;}">
+                <Coords points="2106,1536 2877,1555 2876,1605 2105,1586"/>
+                <Baseline points="2105,1581 2876,1600"/>
+                <TextEquiv>
+                    <Unicode>Sigmund Wim̅er</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1589375950018_1204" custom="readingOrder {index:20;} multiple_writings_WimmerS {offset:0; length:24;}">
+                <Coords points="2043,1640 3136,1643 3136,1693 2043,1690"/>
+                <Baseline points="2043,1685 3136,1688"/>
+                <TextEquiv>
+                    <Unicode>II., Württemberggasse 3.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1589375938782_1189" custom="readingOrder {index:21;} multiple_writings_ZweigS {offset:0; length:39; continued:true;}">
+                <Coords points="633,1564 1976,1564 1976,1614 633,1614"/>
+                <Baseline points="633,1609 1976,1609"/>
+                <TextEquiv>
+                    <Unicode>Ich habe zwar bisher noch keinen Anlass</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1589375943560_1194" custom="readingOrder {index:22;} multiple_writings_ZweigS {offset:0; length:41; continued:true;}">
+                <Coords points="510,1680 1875,1668 1875,1718 510,1730"/>
+                <Baseline points="510,1725 1875,1713"/>
+                <TextEquiv>
+                    <Unicode>geboten dass Sie, verehrter Meister, sich</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1589370223075_968l19" custom="readingOrder {index:23;} multiple_writings_ZweigS {offset:0; length:74; continued:true;} textStyle {offset:42; length:2;strikethrough:true; fontSize:0.0; kerning:0;}">
+                <Coords points="540,1818 667,1817 795,1816 922,1815 1050,1814 1178,1812 1305,1812 1433,1811 1560,1809 1688,1809 1816,1808 1943,1806 2071,1805 2198,1803 2326,1803 2454,1802 2581,1800 2709,1799 2836,1797 2964,1796 3092,1794 3092,1740 2964,1742 2836,1743 2709,1745 2581,1746 2454,1748 2326,1749 2198,1749 2071,1751 1943,1752 1816,1754 1688,1755 1560,1755 1433,1757 1305,1758 1178,1758 1050,1760 922,1761 795,1762 667,1763 540,1764"/>
+                <Baseline points="540,1800 667,1799 795,1798 922,1797 1050,1796 1178,1794 1305,1794 1433,1793 1560,1791 1688,1791 1816,1790 1943,1788 2071,1787 2198,1785 2326,1785 2454,1784 2581,1782 2709,1781 2836,1779 2964,1778 3092,1776"/>
+                <TextEquiv>
+                    <Unicode>meiner erinnern könnten, und so bitte ich ab dennoch, mir das selbe Anden-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1589370223075_968l20" custom="readingOrder {index:24;} multiple_writings_ZweigS {offset:0; length:66; continued:true;}">
+                <Coords points="531,1899 644,1898 757,1897 870,1896 983,1895 1097,1893 1210,1892 1323,1892 1436,1890 1549,1889 1663,1887 1776,1886 1889,1884 2002,1883 2115,1881 2229,1880 2342,1877 2455,1875 2568,1872 2681,1871 2795,1868 2795,1814 2681,1817 2568,1818 2455,1821 2342,1823 2229,1826 2115,1827 2002,1829 1889,1830 1776,1832 1663,1833 1549,1835 1436,1836 1323,1838 1210,1838 1097,1839 983,1841 870,1842 757,1843 644,1844 531,1845"/>
+                <Baseline points="531,1881 644,1880 757,1879 870,1878 983,1877 1097,1875 1210,1874 1323,1874 1436,1872 1549,1871 1663,1869 1776,1868 1889,1866 2002,1865 2115,1863 2229,1862 2342,1859 2455,1857 2568,1854 2681,1853 2795,1850"/>
+                <TextEquiv>
+                    <Unicode>ken zukommen zu lassen; es wird mir eine werte Erinnerung fleiben.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1589370223075_968l21" custom="readingOrder {index:25;} multiple_writings_ZweigS {offset:0; length:38; continued:true;}">
+                <Coords points="1955,1941 2013,1943 2072,1944 2131,1944 2189,1944 2248,1944 2307,1944 2365,1944 2424,1944 2483,1943 2542,1943 2600,1941 2659,1940 2718,1940 2776,1938 2835,1938 2894,1937 2952,1937 3011,1937 3070,1937 3129,1935 3129,1872 3070,1874 3011,1874 2952,1874 2894,1874 2835,1875 2776,1875 2718,1877 2659,1877 2600,1878 2542,1880 2483,1880 2424,1881 2365,1881 2307,1881 2248,1881 2189,1881 2131,1881 2072,1881 2013,1880 1955,1878"/>
+                <Baseline points="1955,1920 2013,1922 2072,1923 2131,1923 2189,1923 2248,1923 2307,1923 2365,1923 2424,1923 2483,1922 2542,1922 2600,1920 2659,1919 2718,1919 2776,1917 2835,1917 2894,1916 2952,1916 3011,1916 3070,1916 3129,1914"/>
+                <TextEquiv>
+                    <Unicode>Stephan Zweig Wien I Rathhausstrase 17</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Sind Ihre Verleger schon so zahm&#xD;
+geworden, daß sie diese unmöglichen&#xD;
+Wünsche von Lyrikern befriedigen können?&#xD;
+Erinnern Sie sich noch dieses „Zahm-Werdens‟? Donath&#xD;
+Wien 14/6 99 TX Gr. Thor, &#xD;
+31&#xD;
+Lieber Herr Doctor! Ich möchte so gern&#xD;
+einmal wieder was von Ihnen hören. Bitte sehr&#xD;
+darum. Für heute viele Grüße&#xD;
+Ihr Donath&#xD;
+Sie erinnern sich wol kaum mehr&#xD;
+an&#xD;
+mich, Ihren steten&#xD;
+Verehrer Ihrer Poesien. Zeihen Sie mich, bitte, keiner&#xD;
+Unverschämtheit, wenn&#xD;
+ich&#xD;
+Sie um Bild und Autogramm&#xD;
+ersuche! Herzlichsten Dank im voraus von Ihrem&#xD;
+sehr ergebenen&#xD;
+Sigmund Wim̅er&#xD;
+II., Württemberggasse 3.&#xD;
+Ich habe zwar bisher noch keinen Anlass&#xD;
+geboten dass Sie, verehrter Meister, sich&#xD;
+meiner erinnern könnten, und so bitte ich ab dennoch, mir das selbe Anden-&#xD;
+ken zukommen zu lassen; es wird mir eine werte Erinnerung fleiben.&#xD;
+Stephan Zweig Wien I Rathhausstrase 17</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

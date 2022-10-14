@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=LiliencronD_6_base:Kurrent(htr_id=27621)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=/net_tf/LA73_249_0mod360.pb:de.uros.citlab.segmentation.CITlab_LA_ML:v=2.6.6
+Transkribus</Creator>
+        <Created>2020-10-12T15:17:54.347+02:00</Created>
+        <LastChange>2021-01-04T13:32:57.871+01:00</LastChange>
+        <TranskribusMetadata docId="511488" pageId="21502496" pageNr="1" tsid="50657991" status="IN_PROGRESS" userId="17934" imgUrl="https://files.transkribus.eu/Get?id=CTBZADQSZJENMSGQZZTUMWZR&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=KZRPRRKVYDKQRQGGMTBTOBKM" imageId="16618422"/>
+    </Metadata>
+    <Page imageFilename="00000001.tif" imageWidth="3428" imageHeight="4137">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1649766238836" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_1608126363248_337"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion orientation="0.0" id="region_1608126363248_337" custom="readingOrder {index:0;}">
+            <Coords points="144,410 2840,410 2840,3992 144,3992"/>
+            <TextLine id="region_1608126363248_337l1" custom="readingOrder {index:0;}">
+                <Coords points="145,710 591,658 781,799 1113,655 1600,641 1885,810 2090,655 2716,820 2718,520 2350,575 2065,437 1696,560 1492,447 1307,564 1090,433 146,543"/>
+                <Baseline points="161,672 285,666 409,660 534,656 658,651 783,648 907,645 1031,644 1156,642 1280,641 1405,641 1529,641 1653,642 1778,642 1902,645 2027,647 2151,648 2275,651 2400,654 2648,648 2700,814"/>
+                <TextEquiv>
+                    <Unicode>L. R. Dank für Deinen freundlichen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1608126363248_337l3" custom="readingOrder {index:1;}">
+                <Coords points="161,925 1016,900 1236,974 1319,893 1646,889 2057,1013 2395,914 2602,1053 2604,838 2277,808 2091,659 1885,807 1668,723 1275,845 891,759 758,826 646,712 320,661 163,714"/>
+                <Baseline points="177,888 297,896 418,899 539,900 660,900 780,899 901,897 1022,893 1143,890 1263,887 1384,884 1505,882 1626,881 1746,882 1867,885 1988,890 2109,898 2229,909 2408,899 2550,956 2585,1030"/>
+                <TextEquiv>
+                    <Unicode>Brief. Nein, weder Fuhrmann</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1608126363248_337l4" custom="readingOrder {index:2;}">
+                <Coords points="150,1206 362,1310 613,1161 1471,1131 1916,1286 2283,1181 2725,1510 2745,1159 2316,961 1794,1034 1653,933 1268,1103 729,1045 532,897 160,1022"/>
+                <Baseline points="170,1163 294,1163 419,1161 543,1158 668,1157 792,1155 917,1152 1041,1151 1166,1149 1290,1149 1415,1149 1540,1151 1664,1152 1789,1157 1913,1163 2038,1169 2162,1178 2338,1173 2550,1235 2597,1230 2708,1527"/>
+                <TextEquiv>
+                    <Unicode>noch Tormin — beide sind übriegens</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1608126363248_337l5" custom="readingOrder {index:3;}">
+                <Coords points="171,1429 367,1418 469,1524 595,1424 1011,1435 1130,1532 1346,1380 1532,1458 1920,1416 2172,1573 2305,1538 2506,1730 2636,1681 2659,1344 2529,1397 2367,1269 1865,1324 1658,1210 1434,1335 1325,1238 1069,1330 181,1289"/>
+                <Baseline points="192,1392 291,1400 390,1406 489,1410 588,1412 687,1413 786,1412 886,1411 985,1409 1084,1406 1183,1404 1282,1402 1381,1400 1480,1400 1580,1400 1679,1401 1778,1404 1877,1410 2264,1434 2550,1726 2616,1745"/>
+                <TextEquiv>
+                    <Unicode>auch verreist — können schwedisch.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1608126363248_337l7" custom="readingOrder {index:4;}">
+                <Coords points="135,1667 749,1620 1158,1679 1313,1829 1511,1671 1819,1656 2251,1942 2587,1973 2601,1752 2095,1546 1159,1557 944,1448 490,1556 148,1470"/>
+                <Baseline points="155,1646 247,1647 340,1647 432,1649 525,1649 618,1650 710,1652 803,1652 895,1653 988,1653 1081,1655 1173,1655 1266,1656 1358,1657 1451,1658 1544,1658 1636,1659 1729,1659 1821,1659 2098,1639 2572,1949"/>
+                <TextEquiv>
+                    <Unicode>Wenns dänisch ware, wüßte</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1608126363248_337l10" custom="readingOrder {index:5;}">
+                <Coords points="166,2085 433,1911 751,2066 1011,1898 1770,1893 1942,2061 2167,1988 2590,2320 2702,2303 2722,2134 2148,1828 211,1706"/>
+                <Baseline points="206,1880 298,1884 390,1888 482,1891 574,1893 666,1895 758,1895 850,1896 942,1896 1034,1896 1127,1895 1219,1895 1311,1893 1403,1893 1495,1893 1975,1886 2103,1916 2209,2003 2542,2156 2594,2319 2681,2347"/>
+                <TextEquiv>
+                    <Unicode>ich Dir sofort Namen zu nennen.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1608126363248_337l13" custom="readingOrder {index:6;}">
+                <Coords points="300,2272 403,2347 601,2171 971,2121 1128,2280 1290,2150 1766,2110 2181,2205 2423,2395 2431,2174 2120,2029 1815,2078 1030,1928 755,2064 490,1948 310,2027"/>
+                <Baseline points="324,2145 445,2147 549,2152 653,2154 757,2154 861,2152 965,2148 1069,2145 1173,2141 1277,2137 1381,2133 1484,2132 1588,2132 1692,2135 1796,2139 1900,2148 2004,2161 2108,2177 2212,2200 2321,2249 2406,2374"/>
+                <TextEquiv>
+                    <Unicode>Ich möchte sogern doch mal</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1608126363248_337l14" custom="readingOrder {index:7;}">
+                <Coords points="193,2401 1218,2394 1448,2575 1830,2395 2663,2678 2677,2491 2501,2375 2314,2403 2015,2193 1656,2157 1141,2290 953,2150 635,2253 483,2132 212,2153"/>
+                <Baseline points="213,2370 334,2381 456,2388 578,2391 700,2393 822,2392 943,2390 1065,2388 1187,2387 1309,2385 1431,2387 1552,2390 1674,2396 1796,2405 1918,2420 2040,2440 2161,2464 2283,2496 2405,2536 2527,2584 2649,2643"/>
+                <TextEquiv>
+                    <Unicode>Deine Kinder sehn!!! Wenns mir</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1608126363248_337l15" custom="readingOrder {index:8;}">
+                <Coords points="159,2642 335,2784 809,2595 1462,2630 1683,2765 1823,2684 1927,2792 2100,2687 2706,2923 2719,2767 2096,2492 1432,2583 835,2402 632,2508 173,2476"/>
+                <Baseline points="180,2589 305,2599 431,2606 556,2610 682,2612 807,2610 933,2610 1058,2607 1184,2607 1309,2606 1435,2609 1560,2613 1686,2621 1811,2633 1937,2649 2062,2672 2188,2702 2313,2738 2439,2784 2564,2837 2690,2901"/>
+                <TextEquiv>
+                    <Unicode>irgend wie gelingen sollte, komm</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1608126363248_337l16" custom="readingOrder {index:9;}">
+                <Coords points="222,2925 1335,2846 1595,3018 1810,2896 2008,3078 2236,2960 2644,2996 2649,2894 2306,2746 1987,2838 1822,2685 1674,2766 1492,2661 1157,2806 711,2775 541,2649 229,2796"/>
+                <Baseline points="173,2834 317,2871 392,2871 466,2871 541,2870 615,2870 690,2868 764,2868 839,2868 913,2868 988,2868 1062,2868 1137,2868 1211,2868 1286,2868 1360,2870 1435,2871 1754,2870 2079,2919 2299,2963 2624,3042"/>
+                <TextEquiv>
+                    <Unicode>ich allein mal. Sonst — „Gelder‟</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1608127149889_528" custom="readingOrder {index:10;} textStyle {offset:6; length:3;underlined:true; fontSize:0.0; kerning:0;}">
+                <Coords points="175,3182 803,3255 1357,3064 1932,3247 2093,3145 2674,3273 2683,3059 2120,2993 2004,3080 1707,2940 1521,3045 1319,2923 1158,2998 652,2886 183,2998"/>
+                <Baseline points="194,3113 219,3108 244,3104 269,3100 295,3098 320,3096 345,3097 371,3102 432,3110 459,3110 486,3110 514,3110 541,3110 568,3110 596,3110 623,3108 651,3107 749,3128 789,3126 829,3124 869,3122 909,3120 949,3117 989,3114 1029,3111 1069,3108 1109,3104 1150,3102 1190,3101 1230,3099 1270,3098 1310,3098 1350,3099 1390,3100 1430,3104 1470,3107 1510,3112 1551,3119 1568,3143 1622,3143 1677,3141 1731,3141 1786,3143 1840,3144 1895,3146 1949,3148 2004,3152 2058,3155 2113,3159 2167,3164 2222,3171 2276,3177 2331,3184 2385,3192 2440,3201 2494,3210 2549,3220 2603,3231 2658,3243"/>
+                <TextEquiv>
+                    <Unicode>sehr, sehr schwach. — Kennst Du den</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1608126363248_337l24" custom="readingOrder {index:11;} textStyle {offset:33; length:3;underlined:true; fontSize:0.0; kerning:0;}">
+                <Coords points="191,3463 1242,3303 1377,3387 2212,3360 2576,3460 2626,3263 1948,3268 1755,3177 1631,3250 1456,3115 803,3257 194,3191"/>
+                <Baseline points="209,3344 328,3344 448,3344 568,3342 688,3342 808,3341 928,3339 1048,3339 1168,3339 1288,3338 1408,3339 1527,3339 1647,3341 1767,3343 1887,3347 2007,3350 2127,3355 2247,3362 2367,3369 2487,3377 2607,3387"/>
+                <TextEquiv>
+                    <Unicode>Schriftsteller Dr. Brausewetter? Der</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1608126363248_337l25" custom="readingOrder {index:12;} textStyle {offset:18; length:12;underlined:true; fontSize:0.0; kerning:0;}">
+                <Coords points="163,3555 538,3529 660,3623 797,3519 1322,3525 1613,3648 2156,3536 2485,3680 2585,3589 2748,3622 2658,3481 2332,3398 2174,3492 2056,3371 999,3446 639,3370 164,3477"/>
+                <Baseline points="179,3545 306,3540 434,3537 562,3533 689,3530 817,3527 945,3525 1072,3523 1200,3522 1328,3522 1456,3522 1583,3524 1711,3525 1839,3529 1966,3533 2094,3539 2222,3545 2349,3553 2477,3563 2605,3574 2733,3587"/>
+                <TextEquiv>
+                    <Unicode>übersetzt aus dem Schwedischen. Übriegens</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1608126363248_337l26" custom="readingOrder {index:13;}">
+                <Coords points="176,3712 1021,3671 1193,3765 1521,3691 1708,3765 2019,3680 2746,3808 2748,3676 2579,3595 2482,3679 2300,3564 1927,3642 1199,3554 704,3640 539,3529 378,3629 177,3589"/>
+                <Baseline points="194,3684 320,3687 447,3689 574,3690 701,3690 828,3690 954,3689 1081,3689 1208,3687 1335,3686 1462,3684 1588,3684 1715,3685 1842,3686 1969,3689 2096,3693 2222,3699 2349,3707 2476,3716 2603,3728 2730,3743"/>
+                <TextEquiv>
+                    <Unicode>wird Dir darin Schuster gleich das Richtige sagen</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1608126363248_337l27" custom="readingOrder {index:14;}">
+                <Coords points="183,3897 704,3841 823,3933 1307,3832 1637,3905 1900,3803 2268,3907 2469,3846 2628,3962 2799,3891 2483,3703 2380,3771 2169,3688 1103,3781 844,3698 711,3790 183,3734"/>
+                <Baseline points="200,3854 329,3855 458,3855 587,3854 716,3850 845,3846 974,3840 1103,3836 1232,3830 1361,3825 1490,3821 1619,3818 1748,3816 1877,3818 2006,3821 2135,3827 2264,3835 2393,3848 2522,3866 2651,3885 2781,3911"/>
+                <TextEquiv>
+                    <Unicode>können. — Ich habe die Welt satt. Danke gehorsamst.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="region_1608126363248_337l28" custom="readingOrder {index:15;}">
+                <Coords points="1676,3946 2459,3960 2483,3957 2482,3848 2384,3885 2350,3858 2282,3903 2118,3832 2053,3883 1839,3874 1781,3840 1720,3888 1675,3874"/>
+                <Baseline points="1691,3942 1729,3943 1768,3944 1807,3944 1846,3945 1884,3945 1923,3945 1962,3945 2001,3944 2039,3944 2078,3944 2117,3944 2156,3942 2194,3942 2233,3942 2272,3942 2311,3942 2349,3942 2388,3942 2427,3942 2466,3944"/>
+                <TextEquiv>
+                    <Unicode>Dein alter D.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>L. R. Dank für Deinen freundlichen&#13;
+Brief. Nein, weder Fuhrmann&#13;
+noch Tormin — beide sind übriegens&#13;
+auch verreist — können schwedisch.&#13;
+Wenns dänisch ware, wüßte&#13;
+ich Dir sofort Namen zu nennen.&#13;
+Ich möchte sogern doch mal&#13;
+Deine Kinder sehn!!! Wenns mir&#13;
+irgend wie gelingen sollte, komm&#13;
+ich allein mal. Sonst — „Gelder‟&#13;
+sehr, sehr schwach. — Kennst Du den&#13;
+Schriftsteller Dr. Brausewetter? Der&#13;
+übersetzt aus dem Schwedischen. Übriegens&#13;
+wird Dir darin Schuster gleich das Richtige sagen&#13;
+können. — Ich habe die Welt satt. Danke gehorsamst.&#13;
+Dein alter D.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

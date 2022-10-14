@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <dct:BibliographicResource xmlns:dct="http://purl.org/dc/terms/"><dehmel:shelfmark xmlns:dehmel="http://id.dehmel.digital/vocab#">DA : Br : Bb : 9</dehmel:shelfmark><marcrel:rcp xmlns:marcrel="http://id.loc.gov/vocabulary/relators/">
+         <foaf:Person xmlns:foaf="http://xmlns.com/foaf/0.1/"><dehmel:localIdentifier xmlns:dehmel="http://id.dehmel.digital/vocab#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:edm="http://www.europeana.eu/schemas/edm/">gnd_118679236</dehmel:localIdentifier>
+            <owl:sameAs rdf:resource="https://d-nb.info/gnd/118679236" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:map="http://www.w3.org/2005/xpath-functions/map"/>
+            <foaf:name>Dehmel, Richard</foaf:name>
+            
+         </foaf:Person>
+      </marcrel:rcp><dct:title>Postkarte an Richard Dehmel</dct:title><dc:date xmlns:dc="http://purl.org/dc/elements/1.1/">14.06.1899</dc:date><dct:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1899-06-14</dct:date><dc:extent xmlns:dc="http://purl.org/dc/elements/1.1/">1 eigenh. Pk.</dc:extent><dehmel:hansIdentifier xmlns:dehmel="http://id.dehmel.digital/vocab#">b14780</dehmel:hansIdentifier><dct:type>
+         <skos:Concept xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+            <skos:prefLabel>Postkarte</skos:prefLabel>
+         </skos:Concept>
+      </dct:type><marcrel:aut xmlns:marcrel="http://id.loc.gov/vocabulary/relators/">
+         <foaf:Person xmlns:foaf="http://xmlns.com/foaf/0.1/"><dehmel:localIdentifier xmlns:dehmel="http://id.dehmel.digital/vocab#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:edm="http://www.europeana.eu/schemas/edm/">gnd_11947042X</dehmel:localIdentifier>
+              <owl:sameAs rdf:resource="https://d-nb.info/gnd/11947042X" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:edm="http://www.europeana.eu/schemas/edm/"/>
+            
+              
+            
+            
+            <foaf:name>Donath, Adolph</foaf:name>
+         </foaf:Person>
+      </marcrel:aut><marcrel:aut xmlns:marcrel="http://id.loc.gov/vocabulary/relators/">
+         <foaf:Person xmlns:foaf="http://xmlns.com/foaf/0.1/"><foaf:name>Donath, (unbekannt)</foaf:name></foaf:Person>
+      </marcrel:aut><marcrel:aut xmlns:marcrel="http://id.loc.gov/vocabulary/relators/">
+         <foaf:Person xmlns:foaf="http://xmlns.com/foaf/0.1/"><dehmel:localIdentifier xmlns:dehmel="http://id.dehmel.digital/vocab#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:edm="http://www.europeana.eu/schemas/edm/">gnd_1243982810</dehmel:localIdentifier>
+              <owl:sameAs rdf:resource="https://d-nb.info/gnd/1243982810" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:edm="http://www.europeana.eu/schemas/edm/"/>
+            
+            
+            <foaf:name>Wimmer, Siegmund</foaf:name>
+         </foaf:Person>
+      </marcrel:aut><marcrel:aut xmlns:marcrel="http://id.loc.gov/vocabulary/relators/">
+         <foaf:Person xmlns:foaf="http://xmlns.com/foaf/0.1/"><dehmel:localIdentifier xmlns:dehmel="http://id.dehmel.digital/vocab#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:edm="http://www.europeana.eu/schemas/edm/">gnd_118637479</dehmel:localIdentifier>
+            <owl:sameAs rdf:resource="https://d-nb.info/gnd/118637479" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:map="http://www.w3.org/2005/xpath-functions/map"/>
+            <foaf:name>Zweig, Stefan</foaf:name>
+         </foaf:Person>
+      </marcrel:aut><dehmel:typeOfWriting xmlns:dehmel="http://id.dehmel.digital/vocab#" xmlns:marcrel="http://id.loc.gov/vocabulary/relators/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+          <skos:Concept>
+            <skos:prefLabel>eigenhändig</skos:prefLabel>
+          </skos:Concept>
+        </dehmel:typeOfWriting><marcrel:prp xmlns:marcrel="http://id.loc.gov/vocabulary/relators/" xmlns:dehmel="http://id.dehmel.digital/vocab#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+            <edm:Place><dehmel:localIdentifier xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:foaf="http://xmlns.com/foaf/0.1/">gnd_4066009-6</dehmel:localIdentifier><owl:sameAs rdf:resource="https://d-nb.info/gnd/4066009-6" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:tsv="tag:dehmel.digital,2022:Projektdaten:tsvlib" xmlns:foaf="http://xmlns.com/foaf/0.1/"/><skos:prefLabel xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:tsv="tag:dehmel.digital,2022:Projektdaten:tsvlib" xmlns:foaf="http://xmlns.com/foaf/0.1/">Wien</skos:prefLabel></edm:Place>
+          </marcrel:prp><marcrel:pad xmlns:marcrel="http://id.loc.gov/vocabulary/relators/" xmlns:dehmel="http://id.dehmel.digital/vocab#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:edm="http://www.europeana.eu/schemas/edm/">
+            <edm:Place><dehmel:localIdentifier xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:foaf="http://xmlns.com/foaf/0.1/">gnd_4048410-5</dehmel:localIdentifier><owl:sameAs rdf:resource="https://d-nb.info/gnd/4048410-5" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:tsv="tag:dehmel.digital,2022:Projektdaten:tsvlib" xmlns:foaf="http://xmlns.com/foaf/0.1/"/><skos:prefLabel xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:tsv="tag:dehmel.digital,2022:Projektdaten:tsvlib" xmlns:foaf="http://xmlns.com/foaf/0.1/">Rantum</skos:prefLabel></edm:Place>
+          </marcrel:pad><dehmel:hasSignet rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean" xmlns:dehmel="http://id.dehmel.digital/vocab#" xmlns:tsv="tag:dehmel.digital,2022:Projektdaten:tsvlib" xmlns:xs="http://www.w3.org/2001/XMLSchema">false</dehmel:hasSignet><dehmel:hasLetterHead rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean" xmlns:dehmel="http://id.dehmel.digital/vocab#" xmlns:tsv="tag:dehmel.digital,2022:Projektdaten:tsvlib" xmlns:xs="http://www.w3.org/2001/XMLSchema">false</dehmel:hasLetterHead><dehmel:onRecycledPaper rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean" xmlns:dehmel="http://id.dehmel.digital/vocab#" xmlns:tsv="tag:dehmel.digital,2022:Projektdaten:tsvlib" xmlns:xs="http://www.w3.org/2001/XMLSchema">false</dehmel:onRecycledPaper></dct:BibliographicResource>
+</rdf:RDF>

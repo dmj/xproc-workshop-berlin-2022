@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Gundram Leifert/gundram.leifert@planet-ai.de:name=German_Kurrent_XIX_M2(htr_id=23847)::::v=2.6.7
+prov=University of Rostock/Institute of Mathematics/CITlab|PLANET AI GmbH/Tobias Gruening/tobias.gruening@planet-ai.de:name=de.uros.citlab.module.baseline2polygon.B2PSeamMultiOriented:v=2.6.7
+Transkribus</Creator>
+        <Created>2020-09-24T13:12:33.982+02:00</Created>
+        <LastChange>2021-04-20T11:27:33.813+02:00</LastChange>
+        <TranskribusMetadata docId="492115" pageId="20207001" pageNr="2" tsid="56860257" status="IN_PROGRESS" userId="17934" imgUrl="https://files.transkribus.eu/Get?id=ZPTWGVQBTRRMJOKRBHOYMZXL&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=ZBQZFHREMXAAZDZVZVEWMNXR" imageId="15533364"/>
+    </Metadata>
+    <Page imageFilename="00000002.tif" imageWidth="3334" imageHeight="3852">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1649766583177" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_1618472772443_419"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_1618472772443_419" custom="readingOrder {index:0;}">
+            <Coords points="2876,3478 235,3478 235,2803 2876,2803"/>
+            <TextLine id="line_1618472778067_422" custom="readingOrder {index:0;}">
+                <Coords points="1142,3018 1434,2923 1797,2946 1913,3039 2060,2956 2716,2981 2793,2893 2344,2807 2221,2868 2093,2819 1786,2881 1467,2882 1264,2789 1147,2834"/>
+                <Baseline points="1162,2913 2775,2958"/>
+                <TextEquiv>
+                    <Unicode>Zu meinem großen Bedauern</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1618472783605_427" custom="readingOrder {index:1;}">
+                <Coords points="260,3075 2473,3077 2633,3173 2865,3086 2866,3002 2300,3049 2095,2963 1920,3041 1790,2943 1107,3028 957,2907 261,2972"/>
+                <Baseline points="276,3051 1649,3063 2848,3084"/>
+                <TextEquiv>
+                    <Unicode>konnte ich Ihnen nicht mehr Adieu sagen, u. bei Pfor-</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1618472792222_432" custom="readingOrder {index:2;}">
+                <Coords points="234,3177 1125,3203 1251,3288 1399,3196 1781,3208 1875,3302 2180,3221 2543,3343 2655,3250 2837,3282 2843,3102 1744,3159 1206,3067 1037,3142 670,3047 236,3119"/>
+                <Baseline points="251,3165 971,3181 1921,3209 2823,3250"/>
+                <TextEquiv>
+                    <Unicode>de gabs keinen Platz mehr Hoffentlich seh ich Sie</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="line_1618472800457_437" custom="readingOrder {index:3;} illegible {offset:40; length:2;}">
+                <Coords points="251,3365 1413,3336 1886,3446 2214,3366 2529,3464 2819,3364 2680,3279 2512,3377 2038,3225 1878,3304 1720,3195 1257,3292 874,3190 256,3211"/>
+                <Baseline points="268,3335 1080,3348 1925,3364 2291,3356 2324,3405 2799,3437"/>
+                <TextEquiv>
+                    <Unicode>bald in Berlin wieder? Liebste Grüße I. n. A.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Zu meinem großen Bedauern&#13;
+konnte ich Ihnen nicht mehr Adieu sagen, u. bei Pfor-&#13;
+de gabs keinen Platz mehr Hoffentlich seh ich Sie&#13;
+bald in Berlin wieder? Liebste Grüße I. n. A.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+    </Page>
+</PcGts>

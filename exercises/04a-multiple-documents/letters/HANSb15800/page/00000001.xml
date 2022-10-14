@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2020-06-02T13:47:40.380+02:00</Created>
+        <LastChange>2021-01-06T14:45:09.408+01:00</LastChange>
+        <TranskribusMetadata docId="399367" pageId="15467789" pageNr="1" tsid="50715488" status="IN_PROGRESS" userId="58597" imgUrl="https://files.transkribus.eu/Get?id=IIWDAZZRVFJNDJQDEOJCQPZM&amp;fileType=view" xmlUrl="https://files.transkribus.eu/Get?id=MUCWNNIFSIJZZJSMIOLEOISC" imageId="11302955"/>
+    </Metadata>
+    <Page imageFilename="00000001.tif" imageWidth="3848" imageHeight="2423">
+        <ReadingOrder>
+            <OrderedGroup id="ro_1605608971989" caption="Regions reading order">
+                <RegionRefIndexed index="0"/>
+            </OrderedGroup>
+        </ReadingOrder>
+    </Page>
+</PcGts>
