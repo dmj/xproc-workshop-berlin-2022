@@ -15,4 +15,4 @@ REM Settings for JAVA_AGENT: Only for Java 8 we have to use -javaagent.
 set JAVA_AGENT=
 if %JAVA_VERSION% EQU 18 (set JAVA_AGENT="-javaagent:%MORGANADIR%MorganaXProc-IIIse_lib/quasar-core-0.7.9.jar")
 
-if %* EQU "" ( java %JAVA_AGENT% -cp %CLASSPATH% com.xml_project.morganaxproc3.XProcEngine ) else ( java %JAVA_AGENT% -cp %CLASSPATH% com.xml_project.morganaxproc3.XProcEngine -config=%MORGANADIR%config.xml %* )
+if %* == "" ( java %JAVA_AGENT% -cp %CLASSPATH% com.xml_project.morganaxproc3.XProcEngine ) else ( java %JAVA_AGENT% -cp %CLASSPATH% com.xml_project.morganaxproc3.XProcEngine -config=%MORGANADIR%config.xml %* )
